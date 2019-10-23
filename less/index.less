@@ -55,7 +55,14 @@ table {
 
 html, body {
 	height: 100%;
+	font-size: 62.5%;
 	background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    // margin-bottom: 15p;
 }
 
 .container {
@@ -65,25 +72,108 @@ html, body {
 
 	.content {
 		margin: auto;
-		width: 90%;
-		border: solid 2px purple;
-	}
+		width: 85%;
+		// border: solid 2px purple;
 
-	header {
-		border: solid 1px red;
+		header {
+			
+			nav {
+				padding: 3.5% 0%;
+				font-size: 1.8rem;
+				text-align: right;
 
-		nav {
-			display: flex;
-			justify-items: flex-end;
-			border: solid 1px blue;
+				a {
+					color: black;
+					font-weight: bold;
+					margin-left: 4%;
+					text-decoration: none;
+				} //end a
 
-			a {
+			} //end nav
+
+		} //end header
+		
+		.main-content {
+
+			.top-content{
+				padding: 12% 0% 8% 6%;
+				border-radius: 1%;
+				background-color: #E9ECEF;
+
+				.text-content
+				{
+					h1 {
+						font-size: 5.3rem;
+						padding: 2% 0% 3% 0%;
+					} //end h1
+
+					h2 {
+						font-size: 2.3rem;
+					} // end h2
+
+					hr {
+						margin: 5% 0%;
+						width: 93%;
+					} // end hr
+
+					p {
+						font-size: 2.3rem;
+					} // end p
+
+					button {
+						border-radius: 6%;
+						background-color: #808080;
+						margin: 3% 0% 0% 0%;
+						width: 16rem;
+						height: 5rem;
+						font-weight: bold;
+						font-size: 1.8rem;
+						color: white;
+						border: none;
+					} // end button
 				
-			}
-		}
-	}
+				} //end  tex content	
+			
+			} //edn top content
 
-	
-}
+			.middle-content {
+
+				display: flex;
+				margin-top: 5%;
+				
+				.text-content {
+
+					width: 50%;
+
+					h1 {
+						font-size: 4rem;
+						font-weight: bold;
+						margin-bottom: 5%;
+					} //end h1
+
+					h2 {
+						font-size: 3rem;
+						font-weight: bold;
+						margin-bottom: 5%;
+					} //end h2
+
+					p {
+						font-size: 2rem;
+					} //end p
+
+					div {
+						padding: 3.5% 0% 3.5% 8%;
+						font-size: 2rem;
+						border: solid 1.5px #DFDFDF;
+					}
+
+				}
+			}
+
+		} //end main content
+
+	} //end content 
+
+} //end container
 
 

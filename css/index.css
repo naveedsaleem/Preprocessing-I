@@ -133,7 +133,16 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
   background-color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: sans-serif;
+  letter-spacing: 1px;
 }
 .container {
   width: 70%;
@@ -142,14 +151,71 @@ body {
 }
 .container .content {
   margin: auto;
-  width: 90%;
-  border: solid 2px purple;
+  width: 85%;
 }
-.container header {
-  border: solid 1px red;
+.container .content header nav {
+  padding: 3.5% 0%;
+  font-size: 1.8rem;
+  text-align: right;
 }
-.container header nav {
+.container .content header nav a {
+  color: black;
+  font-weight: bold;
+  margin-left: 4%;
+  text-decoration: none;
+}
+.container .content .main-content .top-content {
+  padding: 12% 0% 8% 6%;
+  border-radius: 1%;
+  background-color: #E9ECEF;
+}
+.container .content .main-content .top-content .text-content h1 {
+  font-size: 5.3rem;
+  padding: 2% 0% 3% 0%;
+}
+.container .content .main-content .top-content .text-content h2 {
+  font-size: 2.3rem;
+}
+.container .content .main-content .top-content .text-content hr {
+  margin: 5% 0%;
+  width: 93%;
+}
+.container .content .main-content .top-content .text-content p {
+  font-size: 2.3rem;
+}
+.container .content .main-content .top-content .text-content button {
+  border-radius: 6%;
+  background-color: #808080;
+  margin: 3% 0% 0% 0%;
+  width: 16rem;
+  height: 5rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: white;
+  border: none;
+}
+.container .content .main-content .middle-content {
   display: flex;
-  justify-items: flex-end;
-  border: solid 1px blue;
+  margin-top: 5%;
+}
+.container .content .main-content .middle-content .text-content {
+  width: 50%;
+}
+.container .content .main-content .middle-content .text-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.container .content .main-content .middle-content .text-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.container .content .main-content .middle-content .text-content p {
+  font-size: 2rem;
+}
+.container .content .main-content .middle-content .text-content div {
+  padding: 3.5% 0% 3.5% 8%;
+  font-size: 2rem;
+  border: solid 1.5px #DFDFDF;
 }
