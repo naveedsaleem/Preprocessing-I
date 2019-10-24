@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>My Resume</title>
-
+  <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,6 +14,138 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <div class="content">
+      <header>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact-section">Contact</a>
+        </nav>
+      </header>
+      
+      <section class="main-content">
+        <div id="about" class="top-content">
+          <img src="images/profile.jpg" height="300px" width="300px" alt="Profile Picture">
+          <div class="text-content">
+           <h1>Naveed Saleem - Web Dev</h1>
+           <h2>Technology is my jam!</h2>
+           <hr>
+           <p>I am full-stack, web developer. I am eager to work in a challenging environment, which is not only challenging itself but even mission critical. I want to enhance my skills in respect of new and further dimensions of Information Technology.</p>   
+           <button>Lets Team Up</button>
+          </div>  
+        </div>
+
+        <div id="portfolio"  class="middle-content">
+          <div class="text-content">
+            <h1>Listen Up...</h1>
+            <p>I am an Information Technology professional, with extensive experience in the successful delivery of
+                Business Solutions. My forte is in the Design, Development and Implementation of quality Online
+                Software Solutions. I am passionate about Software development, confident in my abilities and
+                committed to delivering software that exceeds expectations.</p>
+          </div>
+          <div class="text-content">
+            <h2>Stuff I'm Good At</h2>
+            <div><span >PHP, ROR</span></div>
+            <div><span>CodeIgniter, Laravel, Yii</span></div>
+            <div><span>MySQL, Postgres</span></div>
+            <div><span>Git (Bitbucket with source tree), SVN</span></div>
+            <div><span>HTML, JSON, JavaScript, JQuery, Ajax</span></div>
+          </div>
+        </div>
+
+        <div class="bottom-content">
+          <h3>Work History</h3>
+          <div class="title-row">
+            <div class="col-one"><span>Yrs</span></div>
+            <div class="col-two"><span>Company</span></div>
+            <div class="col-three"><span>Title</span></div>
+            <div class="col-four"><span>Tech Used</span></div>
+          </div>
+
+          <div class="row2">
+            <div class="col-one"><span>2</span></div>
+            <div class="col-two"><span>Leo Tech</span></div>
+            <div class="col-three"><span>Web Developer</span></div>
+            <div class="col-four"><span>PHP, Laravel</span></div>
+          </div>
+
+          <div class="row1">
+            <div class="col-one"><span>1.5</span></div>
+            <div class="col-two"><span>Naseeb Networks</span></div>
+            <div class="col-three"><span>Senior Web Developer</span></div>
+            <div class="col-four"><span>PHP, Smarty</span></div>
+          </div>
+        
+          <div class="row2">
+            <div class="col-one"><span>1</span></div>
+            <div class="col-two"><span>Uraan</span></div>
+            <div class="col-three"><span>Web Developer</span></div>
+            <div class="col-four"><span>Ruby on Rails</span></div>
+          </div>
+
+        </div>
+        <hr/>
+      </section>
+
+      <section id="contact-section">
+          <h4>Contact Me</h4>
+          <div class="contact-content">               
+            <div class="static-info">
+              <div><span>Get Me In Touch</span></div>
+              <div><span>Address: &nbsp; NJ, 07712</span></div>
+              <div><span>Email: &nbsp;abc@gmail.com</span></div>
+              <div><span>Phone: &nbsp;123 345 6789</span></div>
+              <div><span>Website: &nbsp;example.com</span></div>
+            </div>
+      
+              <div class="info-form">
+                <form action="action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                    <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                    <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                    <label for="country">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="email" name="email" placeholder="Your last email..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                    <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="button" value="Submit">
+                  </div>
+                </form>    
+             </div>                
+            </div>
+      </section>
+        
+      <footer>
+        <p>Copyright Great Idea! 2018</p>
+      </footer>
+    </div>
+    </div>
 </body>
 </html>
